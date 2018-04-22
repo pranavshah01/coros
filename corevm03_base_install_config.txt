@@ -1,0 +1,34 @@
+#cloud-config
+#
+# Set Hostname
+hostname: CoreVM03
+
+users:
+  - name: "core"
+    passwd: "$1$Bz6eNJSt$Kknp8jZLA4aACyRSwHZqK0"
+    groups:
+      - "sudo"
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIWsQVHdGMtj+IN2wKJo6imRRBlDjVeaiUuu7tqe8PQUmjXniPGURp/6dqAzUsnywQPPxGw17Py0skQu5u+7hv/DHHu8eQQZwXCMQntIy2skTvOE+NcEMN+/PrFRVu3BqY812Zx01tqcM05OCQs5cw9f/CUMJtvH0FRFTVFGRAnHoVXUaXQyBIK0hwMnNePg7Rnq2EMfm9S8eTs3ZYgbsJ80LsBQ8Go2OHh/HW9n422La18saj1OznAOO+gcN8Z5qXi2InBM9+FU+EyD7DliPaxISMNrmnijoRDvCJUt1hDWGWTsZH71PyOZpMnFcnBhIflcBoIee8RPz2ti7GhXWB pranav@Pranavs-MBP.T-mobile.com
+  - name: "pranav"
+    passwd: "$1$f8hrTBTv$bewY/3HwhD7nnEXCFHtTT1"
+    groups:
+      - "sudo"
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIWsQVHdGMtj+IN2wKJo6imRRBlDjVeaiUuu7tqe8PQUmjXniPGURp/6dqAzUsnywQPPxGw17Py0skQu5u+7hv/DHHu8eQQZwXCMQntIy2skTvOE+NcEMN+/PrFRVu3BqY812Zx01tqcM05OCQs5cw9f/CUMJtvH0FRFTVFGRAnHoVXUaXQyBIK0hwMnNePg7Rnq2EMfm9S8eTs3ZYgbsJ80LsBQ8Go2OHh/HW9n422La18saj1OznAOO+gcN8Z5qXi2InBM9+FU+EyD7DliPaxISMNrmnijoRDvCJUt1hDWGWTsZH71PyOZpMnFcnBhIflcBoIee8RPz2ti7GhXWB pranav@Pranavs-MBP.T-mobile.com
+
+coreos:
+  etcd2:
+    # Generate a new token for each unique cluster from https://discovery.etcd.io/new
+    discovery: https://discovery.etcd.io/2b74811ff7471d910c73e36026441e85
+  units:
+    - name: static.network
+      content: |
+        [Match]
+        Name=ens192
+
+        [Network]
+        Address=192.168.29.123/24
+        Gateway=192.168.29.1
+        DNS=8.8.8.8
+        DNS=8.8.4.4

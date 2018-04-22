@@ -9,13 +9,13 @@ users:
     groups:
       - "sudo"
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm6Vuu3Wcgdz45EvG9TrfkDEMNsnwpV1Uoq+q+Y9eByc9TWR/XBS1SJLYO/1ZxcmLnuOi2ZQPb/bfC3vDuBYESndTxOxlW1zFtDGOiRo3zvlBffLow+hdtgawugjlYmCdaw1dIYGE1M+CiNAbNvOMckBVsYj1l8I+D1jGJQ3TrFANLyjy1lZFylv1ayfdXBW2QFEvwQrlbdlRM3rnLOG31GtdWXFGmKVcLoIKyb/5blhFJnn0eOh2kj1eM/S4r25+DQOu1jRVkhkt8cvhK6TUiSXs5vb00H+ghLLXBfyqJfpywlLG54W/ipctvW7Gv6DDFNUinadTgIWmy2/bO0pIl pranav@Pranavs-MBP.T-mobile.com
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4gmhwhUYpqmRwEr/iJgIiEYUgW5AlTOdF0D7SGRHNBC+aDPv4sH2YbUcjxfUb5kjWQYa6uKbAN5rMl88kTt+gXl7jZIXfEvWcRJzr2r8AaXh+2OPEtsTdWYr0EUw4TsCjRXcTcmopkje1Gz4xyLrREyspup2kNh0fHY/pf9Hs4oeZkk0ZGCK2o5eHcbQ6ut0OZkb6hBCBtiM85VM9d+yXOOCBEm7tgnosJ/adFJB1JuHWgyJiQ8XdC4C8nmbibpA11FhY0KrTTAIf9pD5HZAPIb145bLtl7lUYTCUMkW4ZIlQmbhweL8KoUVX23TE9ecFJkDRi0riUZGHKLOzHiVL pranav@Pranavs-MBP.T-mobile.com
   - name: "pranav"
     passwd: "$1$f8hrTBTv$bewY/3HwhD7nnEXCFHtTT1"
     groups:
       - "sudo"
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm6Vuu3Wcgdz45EvG9TrfkDEMNsnwpV1Uoq+q+Y9eByc9TWR/XBS1SJLYO/1ZxcmLnuOi2ZQPb/bfC3vDuBYESndTxOxlW1zFtDGOiRo3zvlBffLow+hdtgawugjlYmCdaw1dIYGE1M+CiNAbNvOMckBVsYj1l8I+D1jGJQ3TrFANLyjy1lZFylv1ayfdXBW2QFEvwQrlbdlRM3rnLOG31GtdWXFGmKVcLoIKyb/5blhFJnn0eOh2kj1eM/S4r25+DQOu1jRVkhkt8cvhK6TUiSXs5vb00H+ghLLXBfyqJfpywlLG54W/ipctvW7Gv6DDFNUinadTgIWmy2/bO0pIl pranav@Pranavs-MBP.T-mobile.com
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4gmhwhUYpqmRwEr/iJgIiEYUgW5AlTOdF0D7SGRHNBC+aDPv4sH2YbUcjxfUb5kjWQYa6uKbAN5rMl88kTt+gXl7jZIXfEvWcRJzr2r8AaXh+2OPEtsTdWYr0EUw4TsCjRXcTcmopkje1Gz4xyLrREyspup2kNh0fHY/pf9Hs4oeZkk0ZGCK2o5eHcbQ6ut0OZkb6hBCBtiM85VM9d+yXOOCBEm7tgnosJ/adFJB1JuHWgyJiQ8XdC4C8nmbibpA11FhY0KrTTAIf9pD5HZAPIb145bLtl7lUYTCUMkW4ZIlQmbhweL8KoUVX23TE9ecFJkDRi0riUZGHKLOzHiVL pranav@Pranavs-MBP.T-mobile.com
 
 coreos:
   etcd2:
@@ -28,7 +28,7 @@ coreos:
         Name=ens192
 
         [Network]
-        Address=192.168.29.121/24
+        Address=192.168.29.122/24
         Gateway=192.168.29.1
         DNS=8.8.8.8
         DNS=8.8.4.4
