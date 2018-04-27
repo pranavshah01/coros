@@ -9,9 +9,8 @@ users:
     groups:
       - "sudo"
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIWsQVHdGMtj+IN2wKJo6imRRBlDjVeaiUuu7tqe8PQUmjXniPGURp/6dqAzUsnywQPPxGw17Py0skQu5u+7hv/DHHu8eQQZwXCMQntIy2skTvOE+NcEMN+/PrFRVu3BqY812Zx01tqcM05OCQs5cw9f/CUMJtvH0FRFTVFGRAnHoVXUaXQyBIK0hwMnNePg7Rnq2EMfm9S8eTs3ZYgbsJ80LsBQ8Go2OHh/HW9n422La18saj1OznAOO+gcN8Z5qXi2InBM9+FU+EyD7DliPaxISMNrmnijoRDvCJUt1hDWGWTsZH71PyOZpMnFcnBhIflcBoIee8RPz2ti7GhXWB pranav@Pranavs-MBP.T-mobile.com
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYPyyAxHabmHrJ9S/OSaqOp30lRVTaFo2QQUJIVevLZ1GQI7yIiN7XWmT0vj2gfqVMnZnx6tLZxzkNpA7F3SVRdadVK7Wts/xJokQvY6VGBnznv1EI4Z7wOKoaPjISrY95HtOS/u0KBhdVUUX+QibQ+5BZiL+c59EwbfWCP2o1MjXSfzpPeRME84ugS4Y5cbw/+xDQQNTxahe+LXfo7TvlT5uo9Zl+GMGoD5IXTdFGltZn36wdwL6cHzykXCGupnEGYvNncF736KwJM2G5mBLY0vQtGVThvmx2R7rk4ZbU3zWnbgYoXuLnhFIU1MXs+MAqieZU2WJHHb4Yo0miqyjh
-
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm6Vuu3Wcgdz45EvG9TrfkDEMNsnwpV1Uoq+q+Y9eByc9TWR/XBS1SJLYO/1ZxcmLnuOi2ZQPb/bfC3vDuBYESndTxOxlW1zFtDGOiRo3zvlBffLow+hdtgawugjlYmCdaw1dIYGE1M+CiNAbNvOMckBVsYj1l8I+D1jGJQ3TrFANLyjy1lZFylv1ayfdXBW2QFEvwQrlbdlRM3rnLOG31GtdWXFGmKVcLoIKyb/5blhFJnn0eOh2kj1eM/S4r25+DQOu1jRVkhkt8cvhK6TUiSXs5vb00H+ghLLXBfyqJfpywlLG54W/ipctvW7Gv6DDFNUinadTgIWmy2/bO0pIl pranav@Pranavs-MBP.T-mobile.com
+      
   - name: "pranav"
     passwd: "$1$f8hrTBTv$bewY/3HwhD7nnEXCFHtTT1"
     groups:
